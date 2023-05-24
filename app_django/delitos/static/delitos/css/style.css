@@ -1,0 +1,135 @@
+/* form registro */
+.header .menu a {
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 5px;
+}
+
+.header .menu a:hover {
+	text-decoration: none;
+	color: red;
+}
+.container,.container-delito{
+	width: 40%;
+	border-left: solid black;
+	border-bottom: solid black;
+	border-right: solid black;
+	border-top: solid black;
+	padding: 10px;
+}
+.container h3, .container-delito h3{
+	text-align: center;
+	margin-left: 5%;
+}
+.container form .lineal, .container-delito form .lineal{
+	width: 100%;
+	margin-bottom: 30x;
+}
+.container form .lineal label{
+	width: 40%;
+	display: inline-block;
+}
+.container form  .lineal input{
+	padding: 2px;
+	width: 40%;
+	margin-left: 70px;
+}
+.container form  button:hover, .container .abtn:hover{
+	background: green;
+	cursor: pointer;
+}
+.container form .btn, .container-delito form .btn{
+	background: #99FF99;
+	margin-left: 170px;
+}
+.container .btn1{
+	background: #fff;
+	margin-left: 170px;
+	padding: 5px;
+}
+.container .abtn{
+	background: #99FF99;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+.container .fila{
+	width: 100%;
+	display: inline-block;
+}
+.container .menu-pp{
+	width: 45%;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.container .menu-pp a{
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+
+}
+.container .menu-pp a:hover{
+	background: red;
+}
+.container .salir, .container-delito .salir{
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	background: red;
+	margin-left: 190px;
+	width: 50%;
+
+}
+.container .salir:hover{
+	background: white;
+	color: red;
+}
+.container-delito{
+	width: 60%;
+}
+.container-delito form .lineal label{
+	width: 40%;
+	display: inline-block;
+}
+.container-delito form .lineal input,.container-delito form .lineal textarea {
+	width: 50%;
+}
+.container-delito .ocurrencia{
+	width: 100%;
+}
+.container-delito .ocurrencia input{
+	margin-left: 25px;
+}
+.container-delito .ocurrencia label{
+	width: 60%;
+}
+.container-delito form .ocurrencia .fecha{
+	width: 20%;
+}
+.container-delito form .ocurrencia .hora{
+	width: 15%;
+}
+.container-delito .salir{
+	margin-left: 350px;
+}
+.container-delito .salir:hover{
+	background: white;
+	color: red;
+}
+.container-delito form .btn{
+	margin-left: 270px;
+}
+.container-delito form .btn:hover{
+	background: white;
+	cursor: pointer;
+}

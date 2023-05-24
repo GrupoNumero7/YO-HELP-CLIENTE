@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>REGISTRO</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--CSS-->
+{% load static %}
+<link rel="stylesheet" href={% static 'delitos/css/style.css' %}>
+           
+
+</head>
+<body>
+    <div class="container">
+        <h3>PROTOTIPO</h3>
+        <form action="#" method="POST">
+            <input type="hidden" name="accion" value="insert">
+            <div class="lineal">
+                <label for="nombre" class="form-label">INGRESE RUT</label>
+                <input type="text" class="form-control" id="rut" name="rut">
+            </div>
+            <br>
+            <div class="lineal">
+                <label for="nombre" class="form-label">CLAVE UNICA</label>
+                <input type="text" class="form-control" id="clave" name="clave">
+            </div>
+            
+            <br>
+            <button type="submit" class="btn1">REGISTRARSE</button>
+        </form>
+        <br>
+        <a href="../historial/delitos/" class="abtn">INGRESAR VERSION DE PRUEBA</a>
+
+    </div>
+</body>

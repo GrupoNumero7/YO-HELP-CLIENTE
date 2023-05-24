@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>REGISTRO</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--CSS-->
+{% load static %}
+<link rel="stylesheet" href={% static 'delitos/css/style.css' %}>
+           
+
+</head>
+<body>
+
+    <div class="container-delito">
+        <h3>HISTORIAL DE DELITOS</h3>
+        <form action="#" method="POST">
+            <div class="lineal">
+                <label for="nombre" class="form-label">DELITO</label>
+                <textarea class="contactus" placeholder="(texto 200 caracteres máximo)" type="type" Message="Name" name="txt" id="txt" maxlength="200"> </textarea>
+            </div>
+            <br>
+
+            <div class="lineal">
+                <label for="nombre" class="form-label">RELATO</label>
+                <textarea class="contactus" placeholder="(texto 200 caracteres máximo)" type="type" Message="Name" name="txt" id="txt" maxlength="200"> </textarea>
+            </div>
+            <br>
+            <div class="lineal">
+                <label for="nombre" class="form-label">LUGAR DE OCURRENCIA</label>
+                <input type="text" class="form-control" placeholder="(envía geolocalización)" id="lugar" name="lugar">
+            </div>
+            <br>
+
+            <div class="ocurrencia">
+                <label for="nombre">FECHA DE OCURRENCIA</label>
+                <input type="text" class="fecha" placeholder="DD/MM/AA" id="lugar" name="lugar">
+                <label for="nombre" >HORA</label>
+                <input type="text" class="hora" placeholder="HH:MM" id="lugar" name="lugar">
+            </div>
+            
+            <br>
+        </form>
+        <a class="salir" href="../../sesion/">SALIR</a>
+</div>
+</body>
